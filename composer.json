@@ -1,0 +1,36 @@
+{
+    "name": "jream/laravel-user-groups",
+    "description": "",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "users",
+        "groups",
+    ],
+    "authors": [
+        {
+            "name": "Jesse Boyer",
+            "homepage": "http://jream.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "orchestra/testbench": "~3.0",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jream\\UserGroups\\": "src/Jream/UserGroups"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jream\\UserGroups\\Tests\\": "tests/"
+        }
+    }
+}
