@@ -8,3 +8,5 @@ Simple Package to create groups for users.
 ## Development
 
 This is still in development, not even alpha -- please do not use.
+
+.. Testing TravisCI
